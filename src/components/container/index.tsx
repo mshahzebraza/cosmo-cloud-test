@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Container = () => {
+const Container = ({ children }: any) => {
     return (
-        <div>Container</div>
+        <div className="flex justify-center items-center ">
+            {children}
+        </div>
     )
 }
 
